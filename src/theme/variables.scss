@@ -1,0 +1,73 @@
+// For information on how to create your own theme, please see:
+// http://ionicframework.com/docs/theming/
+:root {
+
+/* Colores principales */
+--ion-color-primary: #0077B6; /* Azul Corporativo, que transmite confianza y profesionalismo */
+--ion-color-primary-rgb: 0,119,182;
+--ion-color-primary-contrast: #ffffff; /* Contraste blanco para buena legibilidad */
+--ion-color-primary-contrast-rgb: 255,255,255;
+--ion-color-primary-shade: #00679f; /* Un tono más oscuro del azul para uso en botones o acentos */
+--ion-color-primary-tint: #338fc0; /* Un tono más claro para fondos o elementos sutiles */
+
+/* Colores secundarios */
+--ion-color-secondary: #00A6FB; /* Un azul claro, que complementa al primario y añade frescura */
+--ion-color-secondary-rgb: 0,166,251;
+--ion-color-secondary-contrast: #ffffff; /* Contraste blanco */
+--ion-color-secondary-contrast-rgb: 255,255,255;
+--ion-color-secondary-shade: #0092dd;
+--ion-color-secondary-tint: #33b6fd;
+
+/* Color terciario */
+--ion-color-tertiary: #90E0EF; /* Azul pastel muy claro, ideal para fondos y áreas sutiles */
+--ion-color-tertiary-rgb: 144,224,239;
+--ion-color-tertiary-contrast: #000000;
+--ion-color-tertiary-contrast-rgb: 0,0,0;
+--ion-color-tertiary-shade: #7cc8d8;
+--ion-color-tertiary-tint: #a6e6f3;
+
+/* Colores de estado (Éxito, Advertencia, Peligro) */
+--ion-color-success: #52B788; /* Verde suave que representa éxito y positividad */
+--ion-color-success-rgb: 82,183,136;
+--ion-color-success-contrast: #ffffff;
+--ion-color-success-contrast-rgb: 255,255,255;
+--ion-color-success-shade: #46a476;
+--ion-color-success-tint: #65c299;
+
+--ion-color-warning: #FFD166; /* Amarillo pastel suave para advertencias */
+--ion-color-warning-rgb: 255,209,102;
+--ion-color-warning-contrast: #000000;
+--ion-color-warning-contrast-rgb: 0,0,0;
+--ion-color-warning-shade: #e0b759;
+--ion-color-warning-tint: #ffdb85;
+
+--ion-color-danger: #F94144; /* Rojo vivo, pero profesional para errores */
+--ion-color-danger-rgb: 249,65,68;
+--ion-color-danger-contrast: #ffffff;
+--ion-color-danger-contrast-rgb: 255,255,255;
+--ion-color-danger-shade: #da3b3f;
+--ion-color-danger-tint: #fa595b;
+
+/* Colores neutros */
+--ion-color-light: #F5F5F5; /* Blanco suave para fondos claros */
+--ion-color-light-rgb: 245,245,245;
+--ion-color-light-contrast: #000000;
+--ion-color-light-contrast-rgb: 0,0,0;
+--ion-color-light-shade: #dcdcdc;
+--ion-color-light-tint: #f6f6f6;
+
+--ion-color-medium: #8D99AE; /* Gris elegante, intermedio para equilibrio */
+--ion-color-medium-rgb: 141,153,174;
+--ion-color-medium-contrast: #ffffff;
+--ion-color-medium-contrast-rgb: 255,255,255;
+--ion-color-medium-shade: #7b889c;
+--ion-color-medium-tint: #9aa6b5;
+
+--ion-color-dark: #2B2D42; /* Gris oscuro profundo para acentos o texto */
+--ion-color-dark-rgb: 43,45,66;
+--ion-color-dark-contrast: #ffffff;
+--ion-color-dark-contrast-rgb: 255,255,255;
+--ion-color-dark-shade: #26283b;
+--ion-color-dark-tint: #3f425a;
+
+}

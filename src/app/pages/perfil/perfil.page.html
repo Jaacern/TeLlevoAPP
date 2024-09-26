@@ -1,0 +1,29 @@
+<app-encabezado titulo="perfil"></app-encabezado>
+<ion-content class="ion-padding">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Usuario</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Descripcion
+    </ion-card-content>
+    <ion-button fill="clear">Editar perfil</ion-button>
+  </ion-card>
+  
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Historial de viajes</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-item *ngFor="let viaje of viajes">
+          <ion-label>{{viaje.fecha}}</ion-label>
+          <ion-button id={{viaje.id}}>Ver detalles</ion-button>
+          <ion-alert trigger="{{viaje.id}}" header="viaje el {{viaje.fecha}}"
+            subHeader="nombre del conductor:{{viaje.conductor}}" message="ubicación: {{viaje.lugar}}"
+            [buttons]="['ok']"></ion-alert>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,34 @@
+<app-encabezado titulo="Conducir" [shouldGoBack]="true"></app-encabezado>
+
+<ion-content class="ion-padding">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Publica tu vieje</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-button routerDirection="forward" routerLink="crear-viajes" expand="block">Publicar</ion-button>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Administra tu viaje</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-button routerDirection="forward" routerLink="adm-viajes" expand="block">Administrar</ion-button>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Historial de viajes</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list>
+        <ion-item *ngFor="let viaje of viajes">
+          <ion-label>{{ viaje.fecha| date: 'dd/MM/yyyy HH:mm' }}</ion-label>
+          <ion-label>{{ viaje.distancia }} km</ion-label>
+          <ion-label>{{ viaje.destino }}</ion-label>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
